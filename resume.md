@@ -25,8 +25,8 @@ Cambridge, MA
 *Tech Lead for Privacy, 2023-2024*
 
 - Designed engineering plan and lead technical execution to mitigate specific high priority risks to user trust identified in Incognito Search design  
-  - Steered work for 15 engineers across six teams, requiring coordinated changes to client, server, platform, storage, logging, and analytics (C++, Java, Python, SQL/mapreduce)  
-  - Required changes to methodologies for log retention/processing, product health tooling, and metric/experiment evaluation in impacted traffic segments  
+  - Steered work for 15 engineers across six teams in coordinated changes to client, server, platform, storage, logging, and analytics (C++, Java, Python, SQL/mapreduce)
+  - Reworked core methodologies for log retention/processing, product health tooling, and metric/experiment evaluation in impacted traffic segments
 - Developed novel analysis technique to segment user data collection by product/feature across all transitive systems in the Google-wide production footprint by correlation of latency/reliability data with product quality logs (gRPC, C++, Java, Python, SQL/mapreduce)  
   - Covered \~million storage events per second across \~thousands of server binaries to identify sensitive data retention under various policies, across code/services operated by all product areas (Search, Ads, YouTube, Workspace, etc)  
 - Designed technical architecture and migration plans to centralize/standardize application of policies for acceptable data use during model training and inference for generating interest based personal recommendations, addressing PR risks from policy misapplication  
