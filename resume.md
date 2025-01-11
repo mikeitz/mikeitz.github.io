@@ -24,14 +24,15 @@ Cambridge, MA
 
 *Tech Lead for Privacy, 2023-2024*
 
-- Designed engineering plan and lead technical execution to mitigate specific high priority risks to user trust identified in Incognito Search design  
-  - Steered work for 15 engineers across six teams in coordinated changes to client, server, platform, storage, logging, and analytics (C++, Java, Python, SQL/mapreduce)
-  - Reworked core methodologies for log retention/processing, product health tooling, and metric/experiment evaluation in impacted traffic segments
-- Developed novel analysis technique to segment user data collection by product/feature across all transitive systems in the Google-wide production footprint by correlation of latency/reliability data with product quality logs (gRPC, C++, Java, Python, SQL/mapreduce)  
+- Designed engineering plan and lead technical execution to mitigate specific high priority risks in Incognito Search design  
+  - Steered work for 15 engineers across six teams in coordinated changes to client, server, platform, storage, logging, and analytics (C++, Java, Python, SQL/mapreduce)  
+  - Reworked core methodologies for log retention/processing, product health tooling, and metric/experiment evaluation in impacted traffic segments  
+- Developed novel analysis technique to segment user data collection by product/feature across all transitive systems in the Google-wide production footprint by correlation of latency/reliability data with product quality logs (Python, gRPC, C++, Java, SQL/mapreduce)  
   - Covered \~million storage events per second across \~thousands of server binaries to identify sensitive data retention under various policies, across code/services operated by all product areas (Search, Ads, YouTube, Workspace, etc)  
 - Designed technical architecture and migration plans to centralize/standardize application of policies for acceptable data use during model training and inference for generating interest based personal recommendations, addressing PR risks from policy misapplication  
   - Support live policy application in serving stack for Search, Discover, Google App, "What to Watch", and other personalized surfaces (C++, Java)  
   - Support per-event policy application within model training runs up to 1 year of click-level activity history for all active Search users  
+  - Manage \~10k human annotations in categorizing \~millions of knowledge graph entities  
   - Obtained 5 permanent SWE staffing for build-out and ongoing governance
 
 ### **Search/Assistant Privacy Engineering**
@@ -42,7 +43,7 @@ Cambridge, MA
 - Grew engineering team to respond to large regulatory and litigation-prompted technical challenges crossing product/organizational boundaries  
   - Including: UK Age Appropriate Design Code, EU Digital Markets Act, Apple Privacy Nutrition Label / App Tracking Transparency, "Misactivation" voice data handling  
   - Hired 12 engineers to the team, mentored 9 members to committee-approved promotion (2 SWE \[L4\], 6 Senior SWE \[L5\], 1 Staff SWE \[L6\]), and grew 4 as new team Tech Leads  
-  - Conducted technical briefings for cross-org high priority regulatory workstreams for \~50 SWE/PM/PgM across \~10 cost centers  
+  - Conducted technical briefings for cross-org high priority regulatory workstreams for \~50 SWE/PM/PgM/Analysts across \~10 cost centers  
 - Invested in adding collection/use monitoring and policy enforcement into the Google-wide tech stack at the core infrastructure level  
   - Lead Search partnership with Youtube to launch first use of the technology to coordinate cross-Product policy application, proving/standardizing the approach across Google (C++, Java, Android, Cast)  
   - Organized migration of all legacy Assistant collection policies forward to new framework  
